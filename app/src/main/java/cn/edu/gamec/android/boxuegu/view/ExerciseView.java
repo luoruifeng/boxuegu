@@ -23,7 +23,7 @@ public class ExerciseView {
     private Activity mContext;
     private LayoutInflater mInflater;
     private View mCurrentView;
-    private ExerciseView(Activity context){
+    public ExerciseView(Activity context){
         mContext = context;
         mInflater = LayoutInflater.from(mContext);
     }
