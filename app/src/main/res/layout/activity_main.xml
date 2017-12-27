@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
-        android:background="#F2FF2F2"
+        android:background="#F2F2F2"
         android:orientation="horizontal"
         >
         <RelativeLayout
