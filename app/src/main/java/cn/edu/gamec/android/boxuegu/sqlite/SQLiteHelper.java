@@ -13,6 +13,8 @@ public class SQLiteHelper extends SQLiteOpenHelper{
     public static String DB_NAME = "bxg.db";
     public static final String U_USERINFO = "userinfo";
     public static final String U_VIDEO_PLAY_LISY = "videoplaylist";
+
+
     public SQLiteHelper(Context context) {
         super(context, DB_NAME, null,DB_VERSION);
     }
