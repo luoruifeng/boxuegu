@@ -8,11 +8,6 @@
     android:background="@android:color/white">
 
     <include layout="@layout/main_title_bar"></include>
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#E4E4E4"></View>
-
 
     <RelativeLayout
         android:id="@+id/rl_head"
@@ -38,8 +33,8 @@
     </RelativeLayout>
 
     <View android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#E4E4E4"></View>
+          android:layout_height="1dp"
+          android:background="#E4E4E4"></View>
     <RelativeLayout
         android:id="@+id/rl_account"
         android:layout_marginLeft="15dp"
@@ -54,7 +49,7 @@
             android:textSize="16sp"
             android:text="用户名"/>
         <TextView
-            android:text="boby"
+            android:text="account"
             android:textColor="#a3a3a3"
             android:textSize="14sp"
             android:layout_centerVertical="true"
