@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottom_bar_course_btn" type="id" />
+    <item name="bottom_bar_exercises_btn" type="id" />
+    <item name="bottom_bar_myinfo_btn" type="id" />
+    <item name="bottom_bar_text_course" type="id" />
+    <item name="bottom_bar_text_exercises" type="id" />
+    <item name="bottom_text_myinfo" type="id" />
+
+</resources>
