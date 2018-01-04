@@ -92,7 +92,7 @@ public class CourseView {
         adapter = new CourseAdapter(mContext);
         adapter.setData(cbl);
         lv_list.setAdapter(adapter);
-        adPager = (ViewPager)mCurrentView.findViewById(R.id.vp_advertBanner);
+        adPager = (ViewPager)mCurrentView.findViewById(R.id.vp_adverBanner);
         adPager.setLongClickable(false);
         ada = new AdBannerAdapter(mContext.getSupportFragmentManager(),mHandler);
         adPager.setAdapter(ada);
